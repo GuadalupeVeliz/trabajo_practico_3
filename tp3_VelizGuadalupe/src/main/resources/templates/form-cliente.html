@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<header>
+		<h1>Formulario de Clientes</h1>
+		<img alt="Logo Clientes" src="../static/images/logocliente.png">
+		</header>
+		<form>
+		<label for="dni"> DNI:  </label>
+		<input type="text" id="dni" name="dni" required> <br>
+		<label for="nombre">Nombres: </label>
+		<input type="text" id="nombre" name="nombre" required><br>
+		<label for="apellido">Apellido: </label>
+		<input type="text" id="apellido" name="apellido" required><br>
+		<label for="fecha">Fecha de Nacimiento: </label>
+		<input type="date" id="fecha" name="fecha" required><br>
+		<label for="genero">Género </label>
+		<input type="radio" id="masculino" name="genero" value="masculino">
+		<label for="masculino">Masculino</label>
+		<input type="radio" id="femenino" name="genero" value="femenino">
+		<label for="femenino">Femenino</label> <br>
+		<label for="correo"> Correo Electronico</label>
+		<input type="email" id="correo" name="correo" required><br>
+		<label for="domicilio">Domicilio: </label>
+		<input type="text" id="domicilio" name="domicilio" required><br>
+		<label for="provincia">Provincia</label>
+		<select id="provincia" name="provincia" required>
+   			<option value="buenos_aires">Buenos Aires</option>
+    		<option value="catamarca">Catamarca</option>
+    		<option value="chaco">Chaco</option>
+   			<option value="chubut">Chubut</option>
+    		<option value="cordoba">Córdoba</option>
+    		<option value="corrientes">Corrientes</option>
+    		<option value="entre_rios">Entre Ríos</option>
+    		<option value="formosa">Formosa</option>
+   			<option value="jujuy">Jujuy</option>
+    		<option value="la_pampa">La Pampa</option>
+    		<option value="la_rioja">La Rioja</option>
+    		<option value="mendoza">Mendoza</option>
+    		<option value="misiones">Misiones</option>
+    		<option value="neuquen">Neuquén</option>
+    		<option value="rio_negro">Río Negro</option>
+    		<option value="salta">Salta</option>
+    		<option value="san_juan">San Juan</option>
+    		<option value="san_luis">San Luis</option>
+    		<option value="santa_cruz">Santa Cruz</option>
+    		<option value="santa_fe">Santa Fe</option>
+    		<option value="santiago_del_estero">Santiago del Estero</option>
+    		<option value="tierra_del_fuego">Tierra del Fuego</option>
+    		<option value="tucuman">Tucumán</option>
+		</select>
+		<br>
+		<label for="celular"> Celular: </label>
+		<input type="text" id="celular" name="celular"> <br>
+		<label for="categoria"> Categorias de Interes </label><br>
+		<input type="checkbox" id="categoria1" name="categoria1" value="categoria1">
+		<label for="categoria1">Alimentos y Bebidas</label><br>
+		<input type="checkbox" id="categoria2" name="categoria2">
+        <label for="categoria2">Salud y Bienestar</label><br>
+		<input type="checkbox" id="categoria3" name="categoria3" >
+        <label for="categoria3">Muebles y Decoracion</label><br>
+        <input type="checkbox" id="categoria4" name="categoria4" >
+        <label for="categoria4">Cuidado de Mascotas</label><br>
+		<label for="sugerencias">Sugerencia para la Empresa</label>
+		<textarea id="sugerencias" name="sugerencias" rows="1" cols="40"></textarea> <br>
+		<label for="contraseña">Contraseña</label>
+		<input type="password" id="contraseña" name="contraseña" required> <br>
+		<label for="condiciones">Acepto los términos y condiciones</label>
+		<input type="checkbox" id="condiciones" name="condiciones" required> <br>
+		<label for="informacion ">Acepto recibir información relativa a la empresa</label>
+		<input type="checkbox" id="informacion" name="informacion"> <br>
+		<input type="button" value="Enviar" />
+		</form>
+		<footer> Guadalupe Véliz <a href= www.facebbok.com>Facebook</a> <a href= www.twitter.com>Twitter</a> <a href= www.gmail.com>Gmail</a></footer>
+	</body>
+</html>
