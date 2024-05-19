@@ -1,0 +1,132 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	background-color:#663bb8;
+	text-align: center;
+	color:#ffffff;
+}
+#header{
+	background:#e5e1eb;
+	margin: 0 auto;
+	text-align: center;
+    width:520px;
+    height:200px;
+	vertical-align:middle;
+}
+.navegacion{
+	background:#aa77d4;
+	text-align:center;
+	font-style:italic;
+	font-size: 25px;
+	height:30px;
+}
+.enlace{
+	text-decoration: none;
+	color: #ffffff;
+	line-height: 20px;
+	margin: 25px 20px 20px 80px;
+}
+.main{
+	width:930px;
+	border:2px solid #DCD6F0;
+	background-color:#e7e4ed;
+	font-size: 20px;
+	justify-content:left;
+    float:left;
+}
+.secciones{
+	border:2px solid #663bb8;
+}
+.titulos{
+	text-align:center;
+	background-color:#663bb8;
+	color:#ffffff;
+}
+#footer{
+	background-color:#58555c;
+	color:#ffffff;
+	text-align:center;
+	height:30px;
+    margin-top: 680px;
+    margin-bottom:20px;
+    border:2px solid #000000;
+    font-size: 20px;
+}
+.afooter{
+	margin: 30px 20px 20px 80px;
+	font-size: 20px;
+	color:#ffffff;
+}
+.aside{
+	border:2px solid #663bb8;
+	width:320px;
+	justify-content:right;
+    height: 670px;
+    float:right;
+    background:#e7e4ed;
+    font-size: 19px;
+}
+body{
+	background:#e5e1eb;
+}
+h4{
+	background-color:#663bb8;
+	color:#ffffff;
+	text-align:center;
+}
+h5{
+	background-color:#663bb8;
+	color:#ffffff;
+	text-align:center;
+}
+img{
+	margin-left:75px;
+	box-shadow: inset 0px 0px 10px 0 rgba(20, 20, 20, 0.2);
+}
+a{
+	color:#ffffff;
+}
+.tabla{
+	margin:auto;
+	text-align:center;
+}
+form{
+	text-align: center;
+    width:520px;
+    height:410px;
+    margin: 0 auto;
+}
+#footerformulario{
+	background-color:#58555c;
+	color:#ffffff;
+	text-align:center;
+	height:30px;
+    margin-top: 40px;
+    margin-bottom:20px;
+    border:2px solid #000000;
+    font-size: 20px;
+}
+#imgformulario{
+	margin: auto 0;
+}
+.div{
+	 width:520px;
+    height:700px;
+    margin: 0 auto;
+	box-shadow: 2px 2px 8px 0 #8e5dc9, 4px 4px 16px 0 #8e5dc9, 0px 0px 24px 2px #8e5dc9;
+	border-radius:10px;
+}
+input{
+	background:white;
+	margin-top:5px;
+}
+.boton{
+	width:100px;
+	height:30px;
+	border:2px solid #000000;
+	border-radius:10px;
+	background:#7B5EDD;
+	color:white;
+}
